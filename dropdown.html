@@ -1,0 +1,37 @@
+<!DOCTYPE html:5>
+<html>
+  <head>
+    <title>Dropdown</title>
+  </head>
+  <body>
+    <div>
+      <label>Enter your name:</label>
+      <input
+        name="name"
+        id="name"
+        onchange="handlechange()"
+      />
+      <label>Select an option</label>
+      <select
+        onchange="handlechange()"
+        id="selectBox"
+      >
+        <option value="select...">select...</option>
+        <option value="delhi">delhi</option>
+        <option value="jaipur">Jaipur</option>
+        <option value="Agra">Agra</option>
+        <option value="Pune">Pune</option>
+      </select>
+    </div>
+    <script>
+      function handlechange() {
+        const name = document.getElementById('name').value;
+        console.log('name----', name);
+      }
+      function handlechange() {
+        const data = document.getElementById('selectBox').value;
+        console.log('data----', data);
+      }
+    </script>
+  </body>
+</html>
