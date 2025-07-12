@@ -16,6 +16,7 @@ const firstNonRepeatingChar = (str) => {
             return item
         }
     }
+    
     return null
 }
 console.log(firstNonRepeatingChar("aabbccddeefaaag"))// returns "f"
