@@ -9,3 +9,4 @@ function isPrime(num) {
 // Example usage:
 console.log(isPrime(4)); // true
 console.log(isPrime(10)); // false
+console.log(isPrime(12)); // false
