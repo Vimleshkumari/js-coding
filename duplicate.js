@@ -9,4 +9,4 @@ arr.forEach(ele => {
         uniquearr.push(ele)
     }
 })
-console.log(uniquearr);
+console.log(uniquearr);  
